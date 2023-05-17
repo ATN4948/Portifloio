@@ -1,0 +1,69 @@
+h1 {
+    color:rebeccapurple;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+h3 {
+    color:darkred;
+    font-family:cursive
+}
+
+
+.header{
+    background-color:darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grade {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.menu {
+     margin-right: 20px;
+}
+
+
+.item{
+    position: relative;
+}
+
+
+.item h3{
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item:hover h3{
+    opacity: 1;
+
+}
+
+.item:hover img{
+    opacity: 0.2;
+}
